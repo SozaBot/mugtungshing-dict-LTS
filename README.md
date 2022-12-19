@@ -1,48 +1,6 @@
-# 音游狗老黄历 Bot [![Core](https://img.shields.io/static/v1?label=&message=Core&color=blue&logo=typescript&logoColor=white)](https://github.com/mugtungshing/core)
-
-[![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg)](./LICENSE)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/@mugtungshing/core)
-[![npm](https://img.shields.io/npm/v/@mugtungshing/core)](https://www.npmjs.com/package/@mugtungshing/core)
-[![codecov](https://codecov.io/gh/mugtungshing/core/branch/main/graph/badge.svg?token=V48jl8kASP)](https://codecov.io/gh/mugtungshing/core)
-
-「音游狗老黄历」生成器核心。
-
-[阅读文档 ↗](https://mugtungshing-core.netlify.app/) [![Netlify Status](https://api.netlify.com/api/v1/badges/686cf4f9-a457-4c56-9b82-0a1f78946133/deploy-status)](https://app.netlify.com/sites/mugtungshing-core/deploys)
-
-## 上手
-
-### 安装
-
-#### 通过包管理器安装
-
-- npm
-
-  ```sh
-  npm i @mugtungshing/core
-  ```
-
-- yarn
-
-  ```sh
-  yarn add @mugtungshing/core
-  ```
-
-#### 从 CDN 加载
-
-```html
-<script type="module">
-  import { Tungshing, Identifier } from 'https://cdn.skypack.dev/@mugtungshing/core'
-</script>
-```
-
-### 使用
-
-```javascript
-new Tungshing(new Identifier(Math.random().toString()), new Date(), 'Asia/Shanghai') // 生成 GMT+8 的今日黄历
-```
-
-**注意**：这并不是一个很好的范例，随机种子需要对每个用户独立唯一，且无法通过用户 ID 推出。
+# mugtungshing-dict-LTS
+[音游狗老黄历 bot](https://t.me/mugtungshing_bot) 的文案。(长期维护版 / [SozaBot](https://bot.qmqaq.top/) 用)   
+fork 自 [上游仓库](https://github.com/mugtungshing/core)
 
 ## 贡献
 
